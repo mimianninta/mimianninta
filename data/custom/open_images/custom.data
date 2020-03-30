@@ -1,0 +1,4 @@
+classes= 3
+train=data/custom/open_images/train.txt
+valid=data/custom/open_images/valid.txt
+names=data/custom/open_images/classes.names
