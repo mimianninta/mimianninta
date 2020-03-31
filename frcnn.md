@@ -144,8 +144,7 @@ From `detection/models/research/`, run
 
 Then, run `tensorboard --logdir=${YOUR EVAL'S OUTUPT DIR}`. 
 
-You should see some validation images like the following :
-![eval](images/eval.png)
+
 
 # Export the graph
 
