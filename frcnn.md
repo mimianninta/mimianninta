@@ -181,5 +181,6 @@ The output images will be saved in `/detection/models/research/output/` folder.
 # References
 
 https://github.com/kwea123/fish_detection.git
+
 https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10
 
