@@ -124,19 +124,16 @@ From `detection/models/research/`, run
 **Note** : The paths should be **absolute**!
 
 You will get the following training info :
+
 ```
 ...
-INFO:tensorflow:global step 31303: loss = 0.1623 (0.109 sec/step)
-INFO:tensorflow:global step 31304: loss = 0.2365 (0.111 sec/step)
+INFO:tensorflow:global step 1794: loss = 0.5385 (8.267 sec/step)
 ...
 ```
 
 You can run `tensorboard --logdir=${YOUR MODEL'S OUTPUT DIR}` to check if the loss actually decreases.
 
-You should see an image like the following :
-![loss](images/loss.png)
 
-**Important note** : You need to constantly keep track of the loss. It will decrease at the beginning and at some time starts to re-increase. You had better *stop* training at this point (early-stopping). In my case, training for 200k steps (as default) gives me bad results (many missed detections), whereas stopping at around 50k steps (where the loss is minimal) gives me lots of true positives.
 
 # Evaluation
 
